@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&family=Roboto:wght@300&family=Source+Sans+Pro:wght@200;300;400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@300&family=Roboto:wght@300&family=Source+Sans+Pro:wght@200;300;400&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +8,9 @@
 /* Tags stylings */
 ul {
     margin: 0;
+}
+li{
+    list-style-type:none;
 }
 
 a {
@@ -99,7 +101,6 @@ p {
 
 /* nav-links */
 .nav-link {
-    text-decoration: none;
     font-family: 'Lato', sans-serif;
     font-size: 18px;
 }
@@ -110,20 +111,20 @@ p {
 .heading-1 {
     font-family: 'Lato', sans-serif;
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .heading-2 {
     font-family: 'Lato', sans-serif;
     font-size: 35px;
-    font-weight: 600;
+    font-weight: 500;
     color: #102746
 }
 
 .heading-3 {
     font-family: 'Lato', sans-serif;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 500;
     color: #102746;
 }
 
@@ -132,14 +133,13 @@ p {
 .title-1 {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.33;
 }
 
 
 /* texts */
 .text-normal {
-
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -218,12 +218,16 @@ p {
 }
 
 .b-border-input {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
     border: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 2px solid #fff;
     width: 240px;
-    padding: 0 0 24px 45px;
+    padding: 5px 0 20px 45px;
     background: transparent;
     margin-right: 60px;
+    color: #fff;
+    outline: none;
 }
 
 .b-border-input::placeholder {
@@ -239,20 +243,20 @@ p {
     position: absolute;
     width: 20px;
     height: 20px;
-    border: 1px solid #fff;
+    border: 3px solid #fff;
     border-radius: 50%;
-    bottom:23px;
+    bottom:20px;
 }
 
 
 .ring-two{
-    bottom:23px;
+    bottom:20px;
     left:347px;
 }
 .search-button {
     font-family: 'Lato', sans-serif;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
     position: absolute;
     top: 260px;
 }
@@ -295,6 +299,7 @@ p {
 
 .benefit-link{
     display:inline-block;
+    font-family: 'Lato', sans-serif;
     margin-top: 40px;
 }
 
@@ -471,10 +476,13 @@ p {
 .card-link{
     display: inline-block;
     margin-top:31px;
+    font-family: 'Lato', sans-serif;
 }
 
 
-
+.card-views{
+    font-family: 'Lato', sans-serif;
+}
 
 
 /* footer sections */
@@ -523,7 +531,7 @@ footer{
     margin-right: 80px;
 }
 
-.column > p {
+.column > li {
     margin-top:8px;
     width:100px;
 }
