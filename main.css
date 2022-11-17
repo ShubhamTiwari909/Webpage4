@@ -6,7 +6,9 @@
 }
 
 
+
 /* Tags stylings */
+
 ul {
     margin: 0;
 }
@@ -43,7 +45,7 @@ p {
 }
 
 .bg-primary-blue {
-    background-color: #1b7dff;
+    background-color: #006dfe;
 }
 
 .bg-dark-blue-grey {
@@ -182,6 +184,7 @@ p {
 .arrow-icon {
     margin-left: 26px;
     width: 34px;
+    height:auto;
 }
 
 .bottom-line {
@@ -207,7 +210,14 @@ p {
     margin: 0 auto;
     width: 1000px;
 }
-
+.header-logo{
+    width: 80px;
+    height: 30px;
+}
+.footer-logo{
+    width: 150px;
+    height: auto
+}
 .primary-link {
     margin-right: 60px;
 }
@@ -232,7 +242,7 @@ p {
 
 /* banner */
 .banner {
-    background-image: url('https://dl.dropboxusercontent.com/s/lg00vv9ryj88vn8/hero.png?dl=0');
+    background-image: url('https://dl.dropboxusercontent.com/s/evuilwy5f2mt52n/hero.webp?dl=0');
     background-repeat: no-repeat;
     background-size: cover;
     height: 140vh;
@@ -344,6 +354,11 @@ p {
     margin-top: 40px;
 }
 
+.benefit-image {
+    width: 64px;
+    height: 64px;
+}
+
 
 
 
@@ -388,27 +403,27 @@ p {
 }
 
 .trip-image-1 {
-    background-image: url('https://dl.dropboxusercontent.com/s/4yua2fny6qt8vo4/image1.png?dl=0.png');
+    background-image: url('https://dl.dropboxusercontent.com/s/bdix3yo7u8ddhj3/image1.webp?dl=0');
     margin-right: 10px;
 }
 
 .trip-image-2 {
-    background-image: url('https://dl.dropboxusercontent.com/s/f3xnu9xyfzet4r6/image2.png?dl=0');
+    background-image: url('https://dl.dropboxusercontent.com/s/rt23vyq38qdcm94/image2.webp?dl=0');
     margin-right: -10px;
 }
 
 .trip-image-3 {
-    background-image: url('https://dl.dropboxusercontent.com/s/anvjht2c6psx25k/image3.png?dl=0');
+    background-image: url('https://dl.dropboxusercontent.com/s/4evfjleuk4rih1q/image3.webp?dl=0');
     margin-right: 10px;
 }
 
 .trip-image-4 {
-    background-image: url('https://dl.dropboxusercontent.com/s/ozyxijehc2cg83m/image4.png?dl=0');
+    background-image: url('https://dl.dropboxusercontent.com/s/ii7pe0blfnfl2sj/image4.webp?dl=0');
     margin-right: 10px;
 }
 
 .trip-image-5 {
-    background-image: url('https://dl.dropboxusercontent.com/s/9sep8vhhyllk6vi/image5.png?dl=0');
+    background-image: url('https://dl.dropboxusercontent.com/s/hmwftm98aea10w5/image5.webp?dl=0');
     margin-right: -10px;
 }
 
@@ -420,6 +435,10 @@ p {
 }
 .trip-link{
     margin-top: 25px;;
+}
+.trip-link-image{
+    width:34px;
+    height:auto;
 }
 
 
@@ -438,11 +457,11 @@ p {
 }
 
 .prefecture-image {
-    background-image: url('https://dl.dropboxusercontent.com/s/6xwjbct16t7f5wc/prefecture.png?dl=0')
+    background-image: url('https://dl.dropboxusercontent.com/s/xjunx7z8ocpx34w/prefecture.webp?dl=0')
 }
 
 .neighbourhood-image {
-    background-image: url('https://dl.dropboxusercontent.com/s/dent6n2xob7wgwy/neighbourhood.png?dl=0')
+    background-image: url('https://dl.dropboxusercontent.com/s/g1kkx5nn62jq3kl/neighbourhood.webp?dl=0')
 }
 
 .about-text-section {
@@ -496,27 +515,27 @@ p {
 
 /* different cards backgrounds */
 .card-img-1 {
-    background-image: url('https://dl.dropboxusercontent.com/s/9acg7n7hz4mst1k/cardimg1.png?dl=0');
+    background-image: url('https://dl.dropboxusercontent.com/s/oy4m6rl5l8xlk7i/cardimg1.webp?dl=0');
 }
 
 .card-img-2 {
-    background-image: url('https://dl.dropboxusercontent.com/s/co7pyuy6l5ypq3q/cardimg2.png?dl=0');
+    background-image: url('https://dl.dropboxusercontent.com/s/o81iwbcilkwrt5k/cardimg2.webp?dl=0');
 }
 
 .card-img-3 {
-    background-image: url('https://dl.dropboxusercontent.com/s/cg2kjszr1ig30hj/cardimg3.png?dl=0');
+    background-image: url('https://dl.dropboxusercontent.com/s/g2jq3prk20a2603/cardimg3.webp?dl=0');
 }
 
 .card-img-4 {
-    background-image: url('https://dl.dropboxusercontent.com/s/08ieqpv1l939uns/cardimg4.png?dl=0');
+    background-image: url('https://dl.dropboxusercontent.com/s/3wrazqckkseekg7/cardimg4.webp?dl=0');
 }
 
 .card-img-5 {
-    background-image: url('https://dl.dropboxusercontent.com/s/kc5cdbz8urve7a7/cardimg5.png?dl=0');
+    background-image: url('https://dl.dropboxusercontent.com/s/anei472bi087fbk/cardimg5.webp?dl=0');
 }
 
 .card-img-6 {
-    background-image: url('https://dl.dropboxusercontent.com/s/5lhkhp1bfrppelt/cardimg6.png?dl=0');
+    background-image: url('https://dl.dropboxusercontent.com/s/d9gqrte4w7zfr49/cardimg6.webp?dl=0');
 }
 
 .card-img-bottom {
@@ -552,7 +571,7 @@ footer {
 }
 
 .footer-image {
-    background-image: url('https://dl.dropboxusercontent.com/s/rjbgix4ffhp3rdl/footer-image.png?dl=0');
+    background-image: url('https://dl.dropboxusercontent.com/s/6u356h28hb8bxha/footer-image.webp?dl=0');
     height: 600px;
     background-size: cover;
     filter: brightness(50%);
