@@ -357,7 +357,6 @@ p {
 .benefit-image {
     width: fit-content;
     height: fit-content;
-    aspect-ratio: 1/1;
 }
 
 
